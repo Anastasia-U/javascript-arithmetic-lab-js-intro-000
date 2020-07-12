@@ -2,9 +2,8 @@ function add(a, b) {
   return a + b;
 }
 
-function subsctract(a, b) {
-  var n = a - b;
-  return n;
+function subtract(a, b) {
+  return a - b;
 }
 
 function multiply(a, b) {
