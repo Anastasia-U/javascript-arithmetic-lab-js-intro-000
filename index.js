@@ -3,7 +3,7 @@ function add(a, b) {
 }
 
 function subsctract(a, b) {
-  return b - a;
+  return a - b;
 }
 
 function multiply(a, b) {
@@ -15,11 +15,13 @@ function divide(a, b) {
 }
 
 function increment(n) {
-  return n++;
+  n++;
+  return n;
 }
 
 function decrement(n) {
-  return n--;
+  n--;
+  return n;
 }
 
 function makeInt(n) {
